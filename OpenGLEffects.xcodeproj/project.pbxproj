@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE45CDE515EA821800C1A22B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE45CDE415EA821800C1A22B /* UIKit.framework */; };
+		CE45CDE715EA821800C1A22B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE45CDE615EA821800C1A22B /* Foundation.framework */; };
+		CE45CDE915EA821800C1A22B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE45CDE815EA821800C1A22B /* CoreGraphics.framework */; };
+		CE45CDEF15EA821800C1A22B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE45CDED15EA821800C1A22B /* InfoPlist.strings */; };
+		CE45CDF115EA821800C1A22B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45CDF015EA821800C1A22B /* main.m */; };
+		CE45CDF515EA821800C1A22B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45CDF415EA821800C1A22B /* AppDelegate.m */; };
+		CE45CDF815EA821800C1A22B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45CDF715EA821800C1A22B /* ViewController.m */; };
+		CE45CDFB15EA821800C1A22B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE45CDF915EA821800C1A22B /* ViewController.xib */; };
+		CE45CE0915EA826600C1A22B /* beach.png in Resources */ = {isa = PBXBuildFile; fileRef = CE45CE0115EA826600C1A22B /* beach.png */; };
+		CE45CE0A15EA826600C1A22B /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = CE45CE0215EA826600C1A22B /* dog.png */; };
+		CE45CE0B15EA826600C1A22B /* GrayscaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45CE0415EA826600C1A22B /* GrayscaleFilter.m */; };
+		CE45CE0C15EA826600C1A22B /* OpenGLBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45CE0615EA826600C1A22B /* OpenGLBlurView.m */; };
+		CE45CE0D15EA826600C1A22B /* OpenGLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45CE0815EA826600C1A22B /* OpenGLHelper.m */; };
+		CE45CE0F15EA842300C1A22B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE45CE0E15EA842300C1A22B /* OpenGLES.framework */; };
+		CE45CE1115EA842A00C1A22B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE45CE1015EA842A00C1A22B /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE45CDE015EA821800C1A22B /* OpenGLEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE45CDE415EA821800C1A22B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE45CDE615EA821800C1A22B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE45CDE815EA821800C1A22B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE45CDEC15EA821800C1A22B /* OpenGLEffects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGLEffects-Info.plist"; sourceTree = "<group>"; };
+		CE45CDEE15EA821800C1A22B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE45CDF015EA821800C1A22B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE45CDF215EA821800C1A22B /* OpenGLEffects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenGLEffects-Prefix.pch"; sourceTree = "<group>"; };
+		CE45CDF315EA821800C1A22B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE45CDF415EA821800C1A22B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE45CDF615EA821800C1A22B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE45CDF715EA821800C1A22B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE45CDFA15EA821800C1A22B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE45CE0115EA826600C1A22B /* beach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beach.png; sourceTree = "<group>"; };
+		CE45CE0215EA826600C1A22B /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		CE45CE0315EA826600C1A22B /* GrayscaleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayscaleFilter.h; sourceTree = "<group>"; };
+		CE45CE0415EA826600C1A22B /* GrayscaleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayscaleFilter.m; sourceTree = "<group>"; };
+		CE45CE0515EA826600C1A22B /* OpenGLBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLBlurView.h; sourceTree = "<group>"; };
+		CE45CE0615EA826600C1A22B /* OpenGLBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLBlurView.m; sourceTree = "<group>"; };
+		CE45CE0715EA826600C1A22B /* OpenGLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLHelper.h; sourceTree = "<group>"; };
+		CE45CE0815EA826600C1A22B /* OpenGLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLHelper.m; sourceTree = "<group>"; };
+		CE45CE0E15EA842300C1A22B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE45CE1015EA842A00C1A22B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE45CDDD15EA821800C1A22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE45CE1115EA842A00C1A22B /* QuartzCore.framework in Frameworks */,
+				CE45CE0F15EA842300C1A22B /* OpenGLES.framework in Frameworks */,
+				CE45CDE515EA821800C1A22B /* UIKit.framework in Frameworks */,
+				CE45CDE715EA821800C1A22B /* Foundation.framework in Frameworks */,
+				CE45CDE915EA821800C1A22B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE45CDD515EA821800C1A22B = {
+			isa = PBXGroup;
+			children = (
+				CE45CDEA15EA821800C1A22B /* OpenGLEffects */,
+				CE45CDE315EA821800C1A22B /* Frameworks */,
+				CE45CDE115EA821800C1A22B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE45CDE115EA821800C1A22B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE45CDE015EA821800C1A22B /* OpenGLEffects.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE45CDE315EA821800C1A22B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE45CE1015EA842A00C1A22B /* QuartzCore.framework */,
+				CE45CE0E15EA842300C1A22B /* OpenGLES.framework */,
+				CE45CDE415EA821800C1A22B /* UIKit.framework */,
+				CE45CDE615EA821800C1A22B /* Foundation.framework */,
+				CE45CDE815EA821800C1A22B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE45CDEA15EA821800C1A22B /* OpenGLEffects */ = {
+			isa = PBXGroup;
+			children = (
+				CE45CE0115EA826600C1A22B /* beach.png */,
+				CE45CE0215EA826600C1A22B /* dog.png */,
+				CE45CE0315EA826600C1A22B /* GrayscaleFilter.h */,
+				CE45CE0415EA826600C1A22B /* GrayscaleFilter.m */,
+				CE45CE0515EA826600C1A22B /* OpenGLBlurView.h */,
+				CE45CE0615EA826600C1A22B /* OpenGLBlurView.m */,
+				CE45CE0715EA826600C1A22B /* OpenGLHelper.h */,
+				CE45CE0815EA826600C1A22B /* OpenGLHelper.m */,
+				CE45CDF315EA821800C1A22B /* AppDelegate.h */,
+				CE45CDF415EA821800C1A22B /* AppDelegate.m */,
+				CE45CDF615EA821800C1A22B /* ViewController.h */,
+				CE45CDF715EA821800C1A22B /* ViewController.m */,
+				CE45CDF915EA821800C1A22B /* ViewController.xib */,
+				CE45CDEB15EA821800C1A22B /* Supporting Files */,
+			);
+			path = OpenGLEffects;
+			sourceTree = "<group>";
+		};
+		CE45CDEB15EA821800C1A22B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE45CDEC15EA821800C1A22B /* OpenGLEffects-Info.plist */,
+				CE45CDED15EA821800C1A22B /* InfoPlist.strings */,
+				CE45CDF015EA821800C1A22B /* main.m */,
+				CE45CDF215EA821800C1A22B /* OpenGLEffects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE45CDDF15EA821800C1A22B /* OpenGLEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE45CDFE15EA821800C1A22B /* Build configuration list for PBXNativeTarget "OpenGLEffects" */;
+			buildPhases = (
+				CE45CDDC15EA821800C1A22B /* Sources */,
+				CE45CDDD15EA821800C1A22B /* Frameworks */,
+				CE45CDDE15EA821800C1A22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLEffects;
+			productName = OpenGLEffects;
+			productReference = CE45CDE015EA821800C1A22B /* OpenGLEffects.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE45CDD715EA821800C1A22B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE45CDDA15EA821800C1A22B /* Build configuration list for PBXProject "OpenGLEffects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE45CDD515EA821800C1A22B;
+			productRefGroup = CE45CDE115EA821800C1A22B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE45CDDF15EA821800C1A22B /* OpenGLEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE45CDDE15EA821800C1A22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE45CDEF15EA821800C1A22B /* InfoPlist.strings in Resources */,
+				CE45CDFB15EA821800C1A22B /* ViewController.xib in Resources */,
+				CE45CE0915EA826600C1A22B /* beach.png in Resources */,
+				CE45CE0A15EA826600C1A22B /* dog.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE45CDDC15EA821800C1A22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE45CDF115EA821800C1A22B /* main.m in Sources */,
+				CE45CDF515EA821800C1A22B /* AppDelegate.m in Sources */,
+				CE45CDF815EA821800C1A22B /* ViewController.m in Sources */,
+				CE45CE0B15EA826600C1A22B /* GrayscaleFilter.m in Sources */,
+				CE45CE0C15EA826600C1A22B /* OpenGLBlurView.m in Sources */,
+				CE45CE0D15EA826600C1A22B /* OpenGLHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE45CDED15EA821800C1A22B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE45CDEE15EA821800C1A22B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE45CDF915EA821800C1A22B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE45CDFA15EA821800C1A22B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE45CDFC15EA821800C1A22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE45CDFD15EA821800C1A22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE45CDFF15EA821800C1A22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLEffects/OpenGLEffects-Prefix.pch";
+				INFOPLIST_FILE = "OpenGLEffects/OpenGLEffects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE45CE0015EA821800C1A22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLEffects/OpenGLEffects-Prefix.pch";
+				INFOPLIST_FILE = "OpenGLEffects/OpenGLEffects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE45CDDA15EA821800C1A22B /* Build configuration list for PBXProject "OpenGLEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE45CDFC15EA821800C1A22B /* Debug */,
+				CE45CDFD15EA821800C1A22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE45CDFE15EA821800C1A22B /* Build configuration list for PBXNativeTarget "OpenGLEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE45CDFF15EA821800C1A22B /* Debug */,
+				CE45CE0015EA821800C1A22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE45CDD715EA821800C1A22B /* Project object */;
+}
